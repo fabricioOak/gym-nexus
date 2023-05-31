@@ -1,6 +1,7 @@
-import {app} from  './app'
+import { app } from  './app'
+import { env } from './env'
 
 app.listen({
   host: '0.0.0.0',
-  port: 3333
-}).then(() => console.log('Server runing at port 3333 🎉'))
+  port: env.PORT
+}).then(() => console.log('Server runing at port', env.PORT))
