@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/fabricioOak/gym-nexus/issues"
   },
-  "homepage": "https://github.com/fabricioOak/gym-nexus#readme"
+  "homepage": "https://github.com/fabricioOak/gym-nexus#readme",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  }
 }
