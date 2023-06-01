@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/fabricioOak/gym-nexus#readme",
   "devDependencies": {
+    "@types/bcryptjs": "2.4.2",
     "@types/node": "20.2.5",
     "@typescript-eslint/eslint-plugin": "5.59.8",
     "@typescript-eslint/parser": "5.59.8",
