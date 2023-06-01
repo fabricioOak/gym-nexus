@@ -1,0 +1,14 @@
+# docker run --name gym-nexus-api -e POSTGRESQL_USERNAME=admin -e POSTGRESQL_PASSWORD=admin
+# -e POSTGRESQL_DATABASE=apigymnexus -p 5432:5432 bitnami/postgresql
+
+version: '3'
+
+services:
+  gym-nexus-api:
+    image: bitnami/postgresql
+    ports:
+      - '5432:5432'
+    environment:
+      - POSTGRESQL_USERNAME=admin
+      - POSTGRESQL_PASSWORD=admin
+      - POSTGRESQL_DATABASE=apigymnexus
